@@ -18,7 +18,7 @@ public class HelloController {
     }
 
     // EJEMPLO PAGINA WEB se hara desde templates mas adelante
-    @GetMapping("/bootstrap")
+    @GetMapping("/")  //    @GetMapping("/bootstrap")
     public String bootstrap(){
         return """
                 <!doctype html>
